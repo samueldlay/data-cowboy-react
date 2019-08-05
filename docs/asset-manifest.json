@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/data-cowboy-react/static/css/main.0a9f0192.chunk.css",
+    "main.js": "/data-cowboy-react/static/js/main.c4ed3f6b.chunk.js",
+    "main.js.map": "/data-cowboy-react/static/js/main.c4ed3f6b.chunk.js.map",
+    "runtime~main.js": "/data-cowboy-react/static/js/runtime~main.fe4aab2e.js",
+    "runtime~main.js.map": "/data-cowboy-react/static/js/runtime~main.fe4aab2e.js.map",
+    "static/js/2.273b4feb.chunk.js": "/data-cowboy-react/static/js/2.273b4feb.chunk.js",
+    "static/js/2.273b4feb.chunk.js.map": "/data-cowboy-react/static/js/2.273b4feb.chunk.js.map",
+    "index.html": "/data-cowboy-react/index.html",
+    "precache-manifest.503f7c3dd080dec88794f19e0d70e072.js": "/data-cowboy-react/precache-manifest.503f7c3dd080dec88794f19e0d70e072.js",
+    "service-worker.js": "/data-cowboy-react/service-worker.js",
+    "static/css/main.0a9f0192.chunk.css.map": "/data-cowboy-react/static/css/main.0a9f0192.chunk.css.map"
+  }
+}
