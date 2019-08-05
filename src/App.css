@@ -1,0 +1,124 @@
+body {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h4 {
+  font-weight: 100;
+}
+
+#items {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-size: 14px;
+  border-collapse: collapse;
+  border-radius: 5px;
+  width: 100%;
+  box-shadow: 2px 2px 5px rgb(204, 203, 203);
+  /* display: block; */
+}
+
+/* #items tbody {
+  display: block;
+   height: 300px; 
+   overflow-y: scroll
+} */
+
+#items tr {
+  background-color: rgb(245, 245, 245);
+  border-bottom: 1px solid #ddd;
+}
+
+#items tr:hover {
+  background-color: rgb(235, 233, 233);
+}
+
+#items th {
+  font-size: 12;
+  font-weight: 100;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: left;
+  background-color: rgb(245, 245, 245);
+  color: rgb(92, 91, 91);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  border-bottom: 1px solid rgb(119, 118, 118);
+}
+
+#items td {
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+#items tr th:first-of-type,
+#items tr td:first-of-type {
+  padding-left: 14px;
+}
+
+/* The container */
+.container {
+  display: block;
+  font: sans-serif;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+
+
+#parent {
+  display: flex;
+  flex-direction: column;
+}
+/* #sideMenu {
+  width: 300px;
+  background: rgb(245, 245, 245);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  overflow-y: auto;
+  position: fixed;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgb(204, 203, 203);
+}
+#content {
+  flex: 1;
+  margin-left: 280px;
+} */
+@media screen and (min-width: 440px) {
+  #parent {
+    display: flex;
+  }
+  #sideMenu {
+    width: 300px;
+    background: rgb(245, 245, 245);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    overflow-y: auto;
+    position: fixed;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgb(204, 203, 203);
+  }
+  #content {
+    flex: 1;
+    margin-left: 280px;
+  }
+}
