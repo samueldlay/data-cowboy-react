@@ -6,6 +6,13 @@ This project began as a prompt from one of my more experienced programmer friend
 ## The Prompt:
 Imagine you work at a company that pays customers for their used mobile devices. Your job is to take the raw information collected about the devices being received and create an interface for the business office to use for gathering insight about these devices being purchased from customers. Display useful information about the dataset according to user parameters.
 
+# Concepts used:
+* Reducers
+* Filters
+* Async/await
+* Map and Set
+* Integrating third-party libraries and web services such as Material.io and Google Charts
+
 # Usage:
 This app generates a fully filterable user interface that utilizes a dataset fetched from a JSON file that contains an array of objects with top-level key-value pairs.
 * Select any category, set a value range, or search by the device ID to narrow your search
