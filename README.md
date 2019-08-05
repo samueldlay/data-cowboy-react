@@ -11,4 +11,4 @@ This app generates a fully filterable user interface fetched from a JSON file th
 * Select any category, set a value range, or search by the device ID to narrow your search
 * Select any category above the pie chart to view specific details about the data that has been filtered 
 
-# [Demo] (https://samueldlay.github.io/data-cowboy-react/)
+[Demo] (https://samueldlay.github.io/data-cowboy-react/)
