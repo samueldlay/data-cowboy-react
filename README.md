@@ -11,4 +11,7 @@ This app generates a fully filterable user interface that utilizes a dataset fet
 * Select any category, set a value range, or search by the device ID to narrow your search
 * Select any category above the pie chart to view specific details about the data that has been filtered 
 
+----
+The code that I wrote to generate the UI (located in 'uiapi.js') for this app can be used with any data structure that meets the aforementioned requirements -- that is, and array of objects that contain top-level key value pairs.
+
 # [Demo](https://samueldlay.github.io/data-cowboy-react/)
