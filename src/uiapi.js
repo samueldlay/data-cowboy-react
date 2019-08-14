@@ -4,7 +4,7 @@ async function loadData() {
     const json = await res.json();
     return json;
   } catch (err) {
-    throw err;
+    return error;
   }
 }
 
