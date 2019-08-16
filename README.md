@@ -1,5 +1,5 @@
 # Data Cowboy - Wrangle That Data!
-
+ 
 ----
 This project began as a prompt from one of my more experienced programmer friends who sought to challenge me to learn about some more advanced concepts in JavaScript.
 
