@@ -1,11 +1,11 @@
 async function loadData() {
-  try {
+ try {
     const res = await fetch("./dataset.json");
     const json = await res.json();
     return json;
-  } catch (err) {
-    return error;
-  }
+ } catch (e) {
+    throw new Error('Error fetching data');
+ }
 }
 
 function UIdata(dataset) {
