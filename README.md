@@ -16,4 +16,4 @@ The data output for this project is just a sample of what my code can be used fo
 * Select any category, set a value range, or search by the device ID to narrow your search
 * Select any category above the pie chart to view specific details about the data that has been filtered 
 
-# [Demo](https://samueldlay.github.io/data-cowboy-react/)
+# [Demo](https://samueldlay.github.io/data-cowboy-react/) 
